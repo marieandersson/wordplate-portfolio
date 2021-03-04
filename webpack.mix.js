@@ -22,3 +22,5 @@ mix.js('resources/scripts/app.js', 'app.js');
 mix.postCss('resources/styles/app.css', 'app.css', [
   //
 ]);
+
+mix.copyDirectory('resources/images', `public/themes/${theme}/assets/images`);
