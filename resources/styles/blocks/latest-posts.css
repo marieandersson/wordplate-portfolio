@@ -1,0 +1,27 @@
+.latest-posts .post a {
+  text-decoration: none;
+}
+
+.latest-posts .post h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.latest-posts .post .image-wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.latest-posts .post a img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.2s ease-in;
+}
+
+.latest-posts .post:hover a img {
+  transform: scale(1.1);
+}

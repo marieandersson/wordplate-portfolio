@@ -27,3 +27,6 @@ require get_template_directory().'/fields/project.php';
 
 // Register options fields
 require get_template_directory().'/fields/options.php';
+
+// Register blocks
+require get_template_directory().'/blocks/latest-posts.php';
