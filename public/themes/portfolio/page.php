@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
+<div class="row d-block">
     <div class="col">
         <?php if (have_posts()): ?>
 
