@@ -2,7 +2,7 @@ body {
   background:snow;
 }
 
-img {
+.image-wrapper > img {
   width: 100%;
   height: auto;
 }

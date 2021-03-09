@@ -12,7 +12,9 @@ $colorProfile = get_field('project_color_profile') ? get_field('project_color_pr
 
                 <?php if (has_post_thumbnail()): ?>
                   <div class="col-lg-5 mt-2 mb-3">
-                    <?php the_post_thumbnail('large'); ?>
+                    <div class="image-wrapper">
+                        <?php the_post_thumbnail('large'); ?>
+                    </div>
 
                     <?php $tools = get_the_terms( $post, 'tool'); ?>
                     <?php if ($tools): ?>

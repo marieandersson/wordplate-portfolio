@@ -8,7 +8,9 @@
 
                 <?php if (has_post_thumbnail()) : ?>
                   <div class="mb-3">
+                    <div class="image-wrapper">
                       <?php the_post_thumbnail('large'); ?>
+                    </div>
                   </div>
                 <?php endif; ?>
 
