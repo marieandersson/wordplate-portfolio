@@ -30,3 +30,4 @@ require get_template_directory().'/fields/options.php';
 
 // Register blocks
 require get_template_directory().'/blocks/latest-posts.php';
+// require get_template_directory().'/blocks/resume.php';

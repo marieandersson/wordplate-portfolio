@@ -1,0 +1,40 @@
+.resume {
+  position: relative;
+}
+
+.resume::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-image: linear-gradient(to top, transparent 0%, #9890e3 30%, #9890e3 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-8px, 24px);
+}
+
+.resume .resume-post {
+  position: relative;
+}
+
+.resume .resume-post h4 {
+  margin: 0 0 .5rem;
+}
+
+.resume .resume-post p {
+  margin: 0 0 1rem;
+}
+
+.resume .resume-post::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #9890e3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-14px, 24px);
+}
