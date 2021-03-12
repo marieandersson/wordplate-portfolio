@@ -23,4 +23,7 @@ mix.postCss('resources/styles/app.css', 'app.css', [
   //
 ]);
 
+mix.js('resources/scripts/editor.js', 'editor.js');
+mix.postCss('resources/styles/editor.css', 'editor.css');
+
 mix.copyDirectory('resources/images', `public/themes/${theme}/assets/images`);

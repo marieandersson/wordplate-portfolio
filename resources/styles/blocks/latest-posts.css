@@ -26,3 +26,7 @@
 .latest-posts .post:hover a img {
   transform: scale(1.1);
 }
+
+.acf-block-preview .latest-posts a {
+  pointer-events: none;
+}

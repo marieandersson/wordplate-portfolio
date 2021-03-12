@@ -1,5 +1,3 @@
 'use strict';
 
-console.log('My awesome portfolio');
-
 import './blocks/image-carousel';

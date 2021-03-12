@@ -15,6 +15,11 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('script', get_theme_file_uri('assets/app.js'));
 });
 
+add_action('enqueue_block_editor_assets', function() {
+    wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css');
+    wp_enqueue_style('style', get_theme_file_uri('assets/editor.css'));
+});
+
 
 // Register project custom post type.
 require get_template_directory().'/post-types/project.php';
@@ -30,4 +35,5 @@ require get_template_directory().'/fields/options.php';
 
 // Register blocks
 require get_template_directory().'/blocks/latest-posts.php';
-// require get_template_directory().'/blocks/resume.php';
+require get_template_directory().'/blocks/resume.php';
+require get_template_directory().'/blocks/image-carousel.php';

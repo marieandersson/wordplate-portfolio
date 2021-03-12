@@ -1,0 +1,10 @@
+.swiper-container .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* We need to set width to .acf-block-preview to keep the swiper in place */
+.acf-block-preview {
+  width: 100%;
+  max-width: 100%;
+}
